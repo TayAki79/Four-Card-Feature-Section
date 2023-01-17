@@ -15,7 +15,7 @@
 /* ### Font-Size */
 
 --fs: 0.9375rem; /* 15px */
---fs-title: 1.7rem; /* 27.2px */
+--fs-title: 1.6rem; /* 27.2px */
 
 /* ### Font-Family */
 
@@ -33,7 +33,7 @@ html {
 }
 
 body {
-  max-width: 375px;
+  max-width: 315px;
   min-height: 100vh;
   margin: 0 auto;
   padding: 0;
@@ -49,7 +49,8 @@ h1, h2, p {
 /* HEADER */
 
 .header-cont {
-  padding: 60px 20px 0 20px;
+  width: 315px;
+  padding: 60px 0 0 0;
   text-align: center;
 }
 
@@ -74,11 +75,11 @@ h1, h2, p {
 /* MAIN */
 
 .main-cont {
-  padding: 0 20px;
+  /* padding: 0 20px; */
 }
 
 .first-col > .position-cont {
-  width: 335px;
+  width: 315px;
   height: 250px;
   background-color: white;
   border: none;
@@ -92,7 +93,7 @@ h1, h2, p {
 }
 
 .second-col > .position-cont {
-  width: 335px;
+  width: 315px;
   height: 250px;
   background-color: white;
   border: none;
@@ -106,7 +107,7 @@ h1, h2, p {
 }
 
 .second-col > .position-cont:nth-of-type(2) {
-  width: 335px;
+  width: 315px;
   height: 250px;
   background-color: white;
   border: none;
@@ -120,7 +121,7 @@ h1, h2, p {
 }
 
 .third-col > .position-cont {
-  width: 335px;
+  width: 315px;
   height: 250px;
   background-color: white;
   border: none;
@@ -161,7 +162,7 @@ img {
    color: hsl(228, 45%, 44%); 
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 1255px) {
   body {
     width: 100%;
     max-width: 1440px;
@@ -171,6 +172,7 @@ img {
   /* HEADER */
 
 .header-cont {
+  width: auto;
   padding: 60px 0 0 0;
 }
 
