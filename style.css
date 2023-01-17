@@ -192,6 +192,7 @@ img {
 .main-cont {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .second-col > .position-cont {
